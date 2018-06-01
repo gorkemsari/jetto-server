@@ -78,7 +78,7 @@ public class ServerApp implements ServerListener{
     //id: client id
     @Override
     public void onError(String message, String id) {
-        //some error occured while any client's request processed
+        //some error occured during communication
     }
 }
 ```
